@@ -1,0 +1,16 @@
+# IDE files
+.idea/
+.vs/
+
+# Bin, obj and log files
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+UpgradeLog.htm
+
+# Backup
+Backup/
+
+# macOS
+.DS_Store
+.localization
