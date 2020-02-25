@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using Domain;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TaxiAPI.Controllers
@@ -8,11 +9,18 @@ namespace TaxiAPI.Controllers
     [Route("[controller]")]
     public class TaxiController : ControllerBase
     {
-        // GET
-        [HttpGet]
-        public async Task<ActionResult> Read()
+
+        private readonly IMaps _maps;
+        public TaxiController(IMaps maps)
         {
-            throw new NotImplementedException();
+            _maps = maps;
+        }
+        
+        
+        [HttpGet("fagOgGruppenummer")]
+        public async Task<string> GetFagOgGruppenummer()
+        {
+            return await _maps.GetFagOgGruppeNummer();
         }
 
     }
