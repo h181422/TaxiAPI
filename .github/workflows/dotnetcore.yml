@@ -18,10 +18,10 @@ jobs:
       with:
         dotnet-version: 3.1.100-preview1-014459
     - name: Build with dotnet
-      run: dotnet build --project Dat251TaxiAPI/Web/Web.csproj --configuration Release
+      run: dotnet build Dat251TaxiAPI/Web/Web.csproj --configuration Release
       
     - name: Run Tests
-      run: dotnet test --project Dat251TaxiAPI/Web/Web.csproj --configuration Release
+      run: dotnet test Dat251TaxiAPI/Web/Web.csproj --configuration Release
 
     - name: Login to Heroku Container registry
       env: 
