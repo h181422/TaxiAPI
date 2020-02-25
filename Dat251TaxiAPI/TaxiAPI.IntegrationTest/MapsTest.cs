@@ -19,5 +19,11 @@ namespace TaxiAPI.IntegrationTest
         {
             Assert.True((await _maps.GetTest()) == "yey");
         }
+        
+        [Fact]
+        public async Task GetFagOgGruppeNummer_returnsFagOgGruppenummerAsString()
+        {
+            Assert.True((await _maps.GetFagOgGruppeNummer()) == "Dat251 Gruppe 1");
+        }
     }
 }
