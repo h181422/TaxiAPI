@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{8FA7F490-1E5F-4A3D-9C50-C04F098965DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{07CFF363-4844-4B3E-9620-9E3659B93E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiAPI.IntegrationTest", "TaxiAPI.IntegrationTest\TaxiAPI.IntegrationTest.csproj", "{25142A72-55DC-44EF-836F-0D402D19664F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FA7F490-1E5F-4A3D-9C50-C04F098965DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA7F490-1E5F-4A3D-9C50-C04F098965DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA7F490-1E5F-4A3D-9C50-C04F098965DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA7F490-1E5F-4A3D-9C50-C04F098965DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CFF363-4844-4B3E-9620-9E3659B93E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CFF363-4844-4B3E-9620-9E3659B93E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CFF363-4844-4B3E-9620-9E3659B93E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CFF363-4844-4B3E-9620-9E3659B93E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25142A72-55DC-44EF-836F-0D402D19664F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25142A72-55DC-44EF-836F-0D402D19664F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25142A72-55DC-44EF-836F-0D402D19664F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25142A72-55DC-44EF-836F-0D402D19664F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
